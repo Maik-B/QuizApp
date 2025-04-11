@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizApp</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="init()">
+    <nav><h1>QuizApp</h1></nav>
+    <div class="container">
+      <div class="card quiz-card">
+        <img
+          class="card-img-top"
+          src="./img/quizcard.png"
+          alt="Card image cap"
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Frage</h5>
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-body">Antwort</div>
+          </div>
+
+          <div class="question-footer">
+            <span><b>1</b> von <b id="all-questions">5</b> Fragen</span>
+            <button class="btn btn-primary">Nächste Frage</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
